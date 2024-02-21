@@ -1,0 +1,57 @@
+{
+    "orgAll":{
+        "id": 1,
+        "label": "万氏族谱",
+        "disabled": true,
+        "expand": true,
+        "children": [
+          {
+            "id": 2,
+            "pid": 1,
+            "label": "万老大",
+            "expand": false,
+            "children": [
+              {
+                "id": 6,
+                "pid": 2,
+                "label": "万小一",
+                "disabled": true
+              },
+              {
+                "id": 8,
+                "pid": 2,
+                "label": "万小二",
+                "noDragging": true
+              },
+              {
+                "id": 7,
+                "pid": 2,
+                "label": "万小三",
+                "children": [
+                    {
+                        "id": 14,
+                        "pid": 7,
+                        "label": "万小小三"
+                      },
+                      {
+                        "id": 15,
+                        "pid": 7,
+                        "label": "万小小唯一"
+                      }
+                ]
+              },
+              {
+                "id": 13,
+                "pid": 2,
+                "label": "万小小四"
+              },
+              {
+                "id": 9,
+                "pid": 2,
+                "label": "万小五"
+              }
+            ]
+          }
+        ]
+    }
+  }
